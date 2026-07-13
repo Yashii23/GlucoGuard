@@ -1,0 +1,49 @@
+name: diabetes_health_app
+description: A diabetes tracking and management app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  # 🔔 Step 1: Notifications & Reminders
+  flutter_local_notifications: ^17.2.2
+  timezone: ^0.9.4
+
+  # 📊 Step 3: Charts / Graph
+  fl_chart: ^0.69.0
+
+  # 📄 Step 4: PDF Generation
+  pdf: ^3.11.1
+  printing: ^5.13.1
+  path_provider: ^2.1.4
+
+  # 🕒 Step 2: Date/Time formatting
+  intl: ^0.19.0
+
+  # 💾 Storage (reminders, entries, insulin)
+  shared_preferences: ^2.3.2
+
+  # 🌗 Step 10: Theme management
+  provider: ^6.1.2
+
+  # 🎥 Step 9: Launch phone/email
+  url_launcher: ^6.3.0
+
+  # 📱 Permissions
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
